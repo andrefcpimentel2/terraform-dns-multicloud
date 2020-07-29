@@ -2,9 +2,9 @@ terraform {
   required_version = ">= 0.12.4"
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "dns-multicloud-org"
+    organization = "emea-se-playground-2019"
     workspaces {
-      name = "dns-multicloud"
+      name = "Andre-dns-multicloud"
     }
   }
 }
